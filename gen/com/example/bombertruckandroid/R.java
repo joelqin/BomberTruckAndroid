@@ -1826,7 +1826,12 @@ containing a value of this type.
         public static final int abc_toolbar_collapse_description=0x7f0a0004;
         public static final int action_settings=0x7f0a0012;
         public static final int app_name=0x7f0a0010;
+        public static final int bomb_button=0x7f0a0017;
+        public static final int down_button=0x7f0a0014;
+        public static final int left_button=0x7f0a0015;
+        public static final int right_button=0x7f0a0016;
         public static final int title_string=0x7f0a0011;
+        public static final int up_button=0x7f0a0013;
     }
     public static final class style {
         /** 

@@ -24,54 +24,54 @@
      <Button
         android:id="@+id/buttonUp"
         style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="90dp"
         android:layout_alignLeft="@+id/gameViewGameWindow"
-        android:layout_marginLeft="50dp"
-        android:text="Button" />
+        android:layout_marginLeft="55dp"
+        android:text="@string/up_button" />
     
     <Button
         android:id="@+id/buttonLeft"
         style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
         android:layout_alignLeft="@+id/gameViewGameWindow"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="50dp"
-        android:text="Button" />
+        android:text="@string/left_button" />
 
     <Button
         android:id="@+id/buttonRight"
         style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
         android:layout_alignTop="@+id/buttonLeft"
         android:layout_alignLeft="@+id/buttonUp"
         android:layout_marginLeft="60dp"
-        android:text="Button" />
+        android:text="@string/right_button" />
 
 	<Button
         android:id="@+id/buttonDown"
         style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
         android:layout_alignLeft="@+id/gameViewGameWindow"
-        android:layout_marginLeft="50dp"
+        android:layout_marginLeft="55dp"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="10dp"
-        android:text="Button" />
+        android:text="@string/down_button" />
 
     <Button
         android:id="@+id/buttonBomb"
         style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
         android:layout_alignLeft="@+id/buttonRight"
         android:layout_marginLeft="90dp"
         android:layout_alignTop="@+id/buttonLeft"
-        android:text="Button" />
+        android:text="@string/bomb_button" />
 
     
 

@@ -95,8 +95,11 @@ public class Bomb extends MapObject {
 		if (getDetenate() == true) {
 			myLocObj.setMapObject(new Explode(myLocObj));
 		}
+		
 		if (bombTimer < 0) {
-			onExplode();
+			if (exploded == false) {
+				onExplode();
+			}
 		}
 		setCycleMuxTrue();
 	}

@@ -14,7 +14,6 @@ import android.view.View;
 
 public class GameView extends View{
 
-	GameCycleController gameController = null;
 	
 	Bitmap bomb = null;
 	Bitmap explode = null;
@@ -25,7 +24,7 @@ public class GameView extends View{
 	Paint paint = null;
 	
 	private void initGameView() {
-		this.gameController = new GameCycleController(new Map(5,5,true));
+		//this.gameController = new GameCycleController(new Map(5,5,true));
 		this.bomb = BitmapFactory.decodeResource(getResources(), R.drawable.bomb);
 		this.player = BitmapFactory.decodeResource(getResources(), R.drawable.player);
 		this.playerandbomb = BitmapFactory.decodeResource(getResources(), R.drawable.playerandbomb);
@@ -56,8 +55,7 @@ public class GameView extends View{
 	protected void onDraw(Canvas canvas) {
 		// TODO Auto-generated method stub
 		super.onDraw(canvas);
-		gameController.onCycle();
-		Map gameMap = gameController.sentMap();
+		Map gameMap = ClientConnector.getMap();
 		
 		int canvasHeight = canvas.getHeight();
 		int canvasWidth = canvas.getWidth();
@@ -72,9 +70,9 @@ public class GameView extends View{
 		
 		for (int x = 0; x < mapSizeX;x++) {
 			for (int y = 0; y < mapSizeY; y++) {
-				int boxXPosStart = x * gameboxSize;
-				int boxXPosEnd = boxXPosStart + gameboxSize;
-				int boxYPosStart = y * gameboxSize;
+				int boxXPosStart = (mapSizeY - y) * gameboxSize;
+				int boxXPosEnd = boxXPosStart - gameboxSize;
+				int boxYPosStart =   x * gameboxSize;
 				int boxYPosEnd = boxYPosStart + gameboxSize;
 				
 				Rect gamebox = new Rect();
@@ -105,7 +103,7 @@ public class GameView extends View{
 				
 			}
 		}
-		
+		invalidate();
 		
 	}
 	
