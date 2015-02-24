@@ -14,8 +14,8 @@
         android:layout_height="wrap_content"
         android:text="@string/title_string" />
 
-    <View
-        android:id="@+id/view1"
+    <com.example.bombertruckandroid.GameView
+        android:id="@+id/gameView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView1"

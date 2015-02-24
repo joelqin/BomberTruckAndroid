@@ -333,7 +333,12 @@ int drawable abc_textfield_default_mtrl_alpha 0x7f02002f
 int drawable abc_textfield_search_activated_mtrl_alpha 0x7f020030
 int drawable abc_textfield_search_default_mtrl_alpha 0x7f020031
 int drawable abc_textfield_search_material 0x7f020032
-int drawable ic_launcher 0x7f020033
+int drawable bomb 0x7f020033
+int drawable explode 0x7f020034
+int drawable ic_launcher 0x7f020035
+int drawable player 0x7f020036
+int drawable playerandbomb 0x7f020037
+int drawable road 0x7f020038
 int id action_bar 0x7f090031
 int id action_bar_activity_content 0x7f090003
 int id action_bar_container 0x7f090030
@@ -362,6 +367,7 @@ int id edit_query 0x7f090033
 int id end 0x7f09001c
 int id expand_activities_button 0x7f090022
 int id expanded_menu 0x7f090028
+int id gameView1 0x7f090040
 int id home 0x7f090000
 int id homeAsUp 0x7f09000e
 int id icon 0x7f090026
@@ -397,7 +403,6 @@ int id textView1 0x7f09003f
 int id title 0x7f090027
 int id up 0x7f090001
 int id useLogo 0x7f090013
-int id view1 0x7f090040
 int id withText 0x7f090018
 int id wrap_content 0x7f090009
 int integer abc_max_action_buttons 0x7f080000

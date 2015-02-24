@@ -1632,7 +1632,12 @@ containing a value of this type.
         public static final int abc_textfield_search_activated_mtrl_alpha=0x7f020030;
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f020031;
         public static final int abc_textfield_search_material=0x7f020032;
-        public static final int ic_launcher=0x7f020033;
+        public static final int bomb=0x7f020033;
+        public static final int explode=0x7f020034;
+        public static final int ic_launcher=0x7f020035;
+        public static final int player=0x7f020036;
+        public static final int playerandbomb=0x7f020037;
+        public static final int road=0x7f020038;
     }
     public static final class id {
         public static final int action_bar=0x7f090031;
@@ -1663,6 +1668,7 @@ containing a value of this type.
         public static final int end=0x7f09001c;
         public static final int expand_activities_button=0x7f090022;
         public static final int expanded_menu=0x7f090028;
+        public static final int gameView1=0x7f090040;
         public static final int home=0x7f090000;
         public static final int homeAsUp=0x7f09000e;
         public static final int icon=0x7f090026;
@@ -1698,7 +1704,6 @@ containing a value of this type.
         public static final int title=0x7f090027;
         public static final int up=0x7f090001;
         public static final int useLogo=0x7f090013;
-        public static final int view1=0x7f090040;
         public static final int withText=0x7f090018;
         public static final int wrap_content=0x7f090009;
     }
