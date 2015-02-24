@@ -94,6 +94,7 @@ public class Bomb extends MapObject {
 		bombTimer--;
 		if (getDetenate() == true) {
 			myLocObj.setMapObject(new Explode(myLocObj));
+			exploded = true;
 		}
 		
 		if (bombTimer < 0) {
